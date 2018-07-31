@@ -1,1 +1,1 @@
-https://github.com/NoreenNaz1234/quiz/edit/master/README.md
+https://github.com/NoreenNaz1234/quiz
