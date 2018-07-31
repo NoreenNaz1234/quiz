@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Quiz</title>
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+</head>
+<body>
+	<div id="set" class="container">
+		<div class="qus">PROGRAMMING QUESTION</div>
+		<div id="question" class="q1"></div>
+		<label class="option"><input type="radio" name="option" value="1"/><span id="opt1"></span></label>
+		<label class="option"><input type="radio" name="option" value="2"/><span id="opt2"></span></label>
+		<label class="option"><input type="radio" name="option" value="3"/><span id="opt3"></span></label>
+		<label class="option"><input type="radio" name="option" value="4"/><span id="opt4"></span></label>
+		<button id="next" class="btn" onclick="nextquet()">Next question</button>
+
+
+	</div>
+
+	<div id="resultEl" class="container result" style="display: none;"></div>
+     <script type="text/javascript" src="script.js"></script>
+	<script type="text/javascript" src="question.js"></script>
+</body>
+    
+</html>
